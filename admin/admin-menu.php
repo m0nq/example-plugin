@@ -21,8 +21,8 @@ function myplugin_add_toplevel_menu() {
 	*/
 
 	add_menu_page(
-		'ExPlugin Settings',
-		'ExPlugin Settings',
+		'Example Plugin Settings',
+		'Example Plugin Settings',
 		'manage_options',
 		'myplugin',
 		'myplugin_display_settings_page',
